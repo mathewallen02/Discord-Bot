@@ -46,5 +46,5 @@ async def on_message(message: str):
     response = generate_response(query)
     await message.channel.send(response)
 
-#runs bot 
+#runs bot
 client.run(os.getenv("TOKEN"))
